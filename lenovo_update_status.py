@@ -75,10 +75,10 @@ def main():
     print(last_status)
 
     if new_status != last_status:
-        pancho['notify']=1
+        pancho['notify_status']=1
         post_var(pancho)
         time.sleep(10)
-        post_var({'notify': 0})
+        post_var({'notify_status': 0})
 
 
 
