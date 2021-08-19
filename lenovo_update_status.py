@@ -43,7 +43,7 @@ def get_last_status(url=ENDPOINT, device=DEVICE_LABEL, token=TOKEN, var=STATUS_L
 
 
 def main():
-    url = "https://ovp.lenovo.com/lenovo-ovp-new/public/ordersearch?appId=1ea53a968e157ecfe69bda62621c5074dbb54e0ae7c86c6a0d2164ad17ccca4348ca18ca40534d35fee41930cb8bcf6bfd4d0d129de6048f1452714253a76505&orderNumber=3f349768d3b3914ded1eaa35901d547547097ea87e52562a8244ec8f7c2e99046137a17bf93f3dc0f4f6f079b87729d5971f1512d025eb3efb97aa7dd43c8e10&email=9e00995114c7910ee2d0a688562a5b7638626a58f994467198bfcf3894fc8202225cd4dcb0b06fed47ecaf54fa62f623a06af57b5b80ab965e81c8f10a456dbc&lang=es_CL&locale=es_CL"
+    url = ""
 
 
     url_headers={"User-Agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36"}
